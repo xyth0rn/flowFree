@@ -39,6 +39,18 @@ DCB═╝
 ```
 ![alt text](https://github.com/NicoIsAwesome/flowFree/blob/main/flowFree_2.jpg)
 
+### [3] options
+The flowFree.py has a built-in SAT-Solver base on "DPLL-based SAT solvers by Will Klieber".
+There is a option to speed up program by replace built-in SAT-Solver with pycosat:
+```
+    # option 1: fast (need to import pycosat)
+    # sol_lst = pycosat.solve(flowFree_CNFs)
+
+    # option 2: slow 
+    solution = IsSatisfiable(flowFree_CNFs, [])
+    sol_lst = sorted(solution, key=abs)
+```
+
 ## Awards
 第59屆全國中小學科展: 探究精神獎
 https://www.ntsec.edu.tw/Science-Content.aspx?cat=15422&a=6821&fld=&key=&isd=1&icop=10&p=4&sid=15827

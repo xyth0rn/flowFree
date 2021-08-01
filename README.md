@@ -60,4 +60,5 @@ https://www.ntsec.edu.tw/Science-Content.aspx?cat=15422&a=6821&fld=&key=&isd=1&i
 
 ## Reference
 A SAT-based Sudoku Solver by Tjark Weber
+
 DPLL-based SAT solvers by Will Klieber

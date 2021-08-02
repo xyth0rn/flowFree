@@ -7,7 +7,7 @@ https://play.google.com/store/apps/details?id=com.bigduckgames.flow&hl=zh_TW&gl=
 work with python2
 
 ### [1] edit "game" in flowFree.py
-![alt text](https://github.com/NicoIsAwesome/flowFree/blob/main/flowFree_1.jpg)
+![alt text](https://github.com/xyth0rn/flowFree/blob/main/flowFree_1.jpg)
 ```
 game = [1, 0, 0, 0, 2, \
         0, 0, 0, 0, 0, \
@@ -37,7 +37,7 @@ A══╗B
 ║║A╝║
 DCB═╝
 ```
-![alt text](https://github.com/NicoIsAwesome/flowFree/blob/main/flowFree_2.jpg)
+![alt text](https://github.com/xyth0rn/flowFree/blob/main/flowFree_2.jpg)
 
 ### [3] options
 The flowFree.py has a built-in SAT-Solver base on "DPLL-based SAT solvers by Will Klieber".
